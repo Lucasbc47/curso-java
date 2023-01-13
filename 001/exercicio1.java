@@ -1,3 +1,7 @@
+// Peça 3 números
+// Some os 3 números
+// Imprima a soma e o maior número
+
 import java.util.Scanner;
 import java.util.Arrays;
 
