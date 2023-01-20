@@ -4,19 +4,20 @@ public class Shuffle1 {
         int x = 3;
         // Second step
         while ( x > 0) {
+            
             // Third step
             if (x == 2) {
                 System.out.print("b c");
             }
+            
             // Fourth Step
             if (x > 2) {
                 System.out.print("a");
             }
-
+            
             // Fifth Step
             x = x - 1;
             System.out.print("-");
-
 
             // Sixth step
             if (x == 1) {
