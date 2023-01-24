@@ -1,4 +1,4 @@
-{
+class PoolPuzzleOne {
     public static void main(String args[]){
 
         int x = 0;
@@ -15,7 +15,6 @@
             if(x < 1){
                 // Empty space []
                 System.out.print(" ");
-                x = x + 2;
             }
 
             // Second time won't run since 2 > 1
@@ -26,12 +25,13 @@
 
             // Won't run for first time
             if (x == 1){
-                System.out.print(" oyster");
+                System.out.print("noys");
             }
 
             // First time == [0]; won't run also
             if (x > 1){
-                System.out.print("noys");
+                System.out.print(" oyster");
+                x = x + 2;
             }
 
             // Runs by second so, output (a noise)
@@ -45,4 +45,5 @@
         }
     }
 }
+
 
