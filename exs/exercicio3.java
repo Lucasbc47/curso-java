@@ -1,7 +1,7 @@
 // Conversão de real para dolar
 import java.util.Scanner;
 
-public class Main {
+public class exercicio3 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

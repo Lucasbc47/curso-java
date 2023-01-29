@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void exercicio6(String[] args) {
 
         double aumento = 1.5, salario = 1000, ano = 2022;
 
