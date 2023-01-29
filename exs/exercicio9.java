@@ -1,24 +1,22 @@
-import java.util.Scanner;
-import java.util.Locale;
+public class exercicio9 {
+    public static void main(String[] args) {
 
-public class Main {
-    public static void exercicio9(String[] args) {
+        // Tem-se um conjunto de dados contendo a altura e o sexo (masculino, feminino)
+        // de 10 pessoas
 
+        // Fazer um algoritimo que calcule e escreva
+        // a. maior e a menor altura do grupo
+        // b. média de altura dos homens
+        // c. numero de mulheres
 
-        Scanner input = new Scanner(System.in);
-        Locale.setDefault(Locale.US);
-        // Locale set to work with ','
+        Scanner scanner = System.in;
+        for (int x = 0; x < 5; x++){
+            System.out.println("Insira a altura do " + x + "º" + "homem");
+        }
 
-        System.out.print("Base value:");
-
-        double base = input.nextDouble();
-
-        System.out.print("Height value:");
-
-        double height = input.nextDouble();
-        double ans = base*height/2;
-
-        System.out.println("Result:" + ans);
 
     }
 }
+
+
+

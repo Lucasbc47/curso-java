@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class exercicio12 {
+public class exercicio_11 {
     public static void main(String[] args){
 
         // Crie um programa que calcule a média de um aluno para

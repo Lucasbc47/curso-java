@@ -1,4 +1,4 @@
-public class exercicio17 {
+public class exercicio_15 {
     public static void main(String[] args) {
 
         System.out.println("Divisiveis por 3");

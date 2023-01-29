@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class exercicio11{
+public class exercicio_10{
 
     static void print(String text){
         System.out.println((text));
