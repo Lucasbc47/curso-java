@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class exercicio_20 {
     public static void main(String[] args){
 
@@ -43,3 +44,28 @@ public class exercicio_20 {
 
     }
 }
+=======
+import java.util.Scanner;
+
+public class exercicio_20 {
+    public static void main(String[] args){
+        
+        // Inversão de strings
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Insira a string que deseja inverter:");
+        String first_text = scanner.nextLine();
+
+        if (first_text.isBlank()){
+            System.exit(0);
+        }
+
+        String[] text_array = first_text.split(" ");
+
+        for (int i = text_array.length - 1; i >= 0; i--){
+            System.out.print(text_array[i] + " ");
+        }
+
+    }
+}
+>>>>>>> bda96665f6f3171a2ed4a2aef52ef2ffeb2840e7

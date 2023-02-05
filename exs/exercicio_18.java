@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class exercicio_18{
@@ -21,3 +22,22 @@ public class exercicio_18{
         System.out.println(t);
     }
 }
+=======
+import java.util.Scanner;
+
+public class exercicio_18 {
+      public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Insira o texto que deseja quebrar:");
+        String texto = scanner.nextLine();
+
+        for(int i = 0; i < texto.length(); i++){
+            System.out.print(texto.charAt(i) + " ");
+            // .charAt()
+            // é o metodo de String que retorna o carectere
+            // localizado.
+            // dentro dos parenteses, vc passa o numero/posição
+        }
+    }
+}
+>>>>>>> bda96665f6f3171a2ed4a2aef52ef2ffeb2840e7
