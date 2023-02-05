@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Locale;
 
-public class Main {
+public class exercicio8 {
     public static void exercicio8(String[] args) {
 
 

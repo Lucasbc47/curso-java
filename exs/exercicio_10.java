@@ -27,7 +27,7 @@ public class exercicio_10{
         print("par:");
         int par = scanner.nextInt();
 
-        if (check(par) != "par"){
+        if (!check(par).equals("par")){
             print("favor, insira um numero par");
             System.exit(0);
 

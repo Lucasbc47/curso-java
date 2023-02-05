@@ -1,4 +1,4 @@
-public class Main {
+public class exercicio7 {
 
     public static void exercicio7(String[] args){
         double c, k, f, re, ra;
