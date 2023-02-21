@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class exercicio_10{
 
     static void print(String text){
@@ -19,7 +20,7 @@ public class exercicio_10{
         print("imp:");
         int imp = scanner.nextInt();
 
-        if (check(imp) == "par"){
+        if (check(imp).equals("par")){
             print("favor, insira um numero par");
             System.exit(0);
         }

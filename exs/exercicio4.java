@@ -18,19 +18,3 @@ public class exercicio4 {
 
     }
 }
-//
-
-//import javax.swing.JFrame;
-//
-//public class Main {
-//
-//    public static void main(String[] args){
-//        // Initialize frame
-//        JFrame miJFrame = new JFrame("Java UI");
-//        miJFrame.setSize(100,200);
-//
-//
-//        // Make frame visible
-//        miJFrame.setVisible(true);
-//    }
-//}
