@@ -117,7 +117,6 @@ public class Main {
         }
 
         System.out.println("Deseja jogar novamente? (sim/nao)");
-        sc.nextLine();
         String resposta = sc.nextLine();
 
         if (resposta.equalsIgnoreCase("sim")) {
